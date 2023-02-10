@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  margin: 50px 0;
+}
+
+td,
+th {
+  padding: 10px 45px;
+}
+
+th {
+  background-color: rgb(143, 143, 146);
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.btn-confirm {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #3A65F2;
+  color: #F1F1F1;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.celula {
+  margin-right: 25px;
+}
